@@ -3,7 +3,7 @@ const imovel1 = require("../src/assets/images/imovel1.jpg");
 const imovel2 = require("../src/assets/images/imovel2.jpg");
 const imovel3 = require("../src/assets/images/imovel3.png");
 const imovel4 = require("../src/assets/images/imovel4.jpg");
-const logotext = "Daniela Gordinho | RE/MAX | Latina Business";
+const logotext = "Daniela Gordinho | RE/MAX";
 const meta = {
     title: "Daniela Gordinho - Consultora Imobiliaria",
     description: "Para o negócio que deseja fazer, acaba de encontrar tua ajuda profissional",
