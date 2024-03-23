@@ -211,3 +211,7 @@ a {
     color: var(--bs-link-color);
     text-decoration: unset;
 }
+
+.bg__header {
+    background-color: var(--bg-color);
+}
