@@ -1,19 +1,22 @@
 const myImage = require("../src/assets/images/dani_image_1.jpeg");
 const imovel1 = require("../src/assets/images/imovel1.jpg");
-const logotext = "DG | Remax | GL";
+const imovel2 = require("../src/assets/images/imovel2.jpg");
+const imovel3 = require("../src/assets/images/imovel3.png");
+const imovel4 = require("../src/assets/images/imovel4.jpg");
+const logotext = "Daniela Gordinho | RE/MAX | Latina Business";
 const meta = {
-    title: "Daniela Gordinho - Remax - GL",
-    description: "O imóvel que procura, eu te ajudo a encontrar",
+    title: "Daniela Gordinho - Consultora Imobiliaria",
+    description: "Para o negócio que deseja fazer, acaba de encontrar tua ajuda profissional",
 };
 
 const introdata = {
-    title: "Permita-me",
+    title: "Estou aqui para",
     animated: {
-        first: "Ajudar-te a realizar teu sonho.",
-        second: "Conhecer-te melhor.",
-        third: "Apresentar-te as minhas soluções.",
+        first: "Entender o teu momento.",
+        second: "Apresentar-te as minhas soluções.",
+        third: "Realizarmos teu objetivo.",
     },
-    description: "Sou a Daniela Gordinho e estou aqui para te ajudar, abaixo, encontrará meus imóveis e tambem meu contato. Estou ansiosa para falar contigo e saber no que eu posso lhe ajudar.",
+    description: "Olá! Sou a Daniela Gordinho, sua consultora imobiliaria e estou aqui para te ajudar. Se ainda não encontrou o que procura em Meus Imóveis, entre em contato comigo através dos meus canais. Estou ansiosa para falar contigo e saber no que e como eu posso lhe ajudar.",
     your_img_url: myImage,
 };
 
@@ -72,7 +75,23 @@ const services = [{
     },
 ];
 
-const dataportfolio = [{
+const dataportfolio = [
+    {
+        img: imovel2,
+        description: "Loja à venda em Vila Nova de Gaia",
+        link: "https://www.remax.pt/imoveis/venda-loja-tvila-nova-de-gaia-santa-marinha-e-sao-pedro-da-afurada/124231389-4",
+    },
+    {
+        img: imovel4,
+        description: "Moradia T3 à venda em Vila Nova de Gaia",
+        link: "https://www.remax.pt/imoveis/venda-moradia-t3-vila-nova-de-gaia-pedroso-e-seixezelo/124231389-2",
+    },
+    {
+        img: imovel3,
+        description: "Apartamento T2 à venda em Vila Nova de Gaia",
+        link: "https://www.remax.pt/imoveis/venda-apartamento-t2-vila-nova-de-gaia-mafamude-e-vilar-do-paraiso/124231389-3",
+    },
+    {
         img: imovel1,
         description: "Escritório para arrendar em Vila Nova de Gaia",
         link: "https://www.remax.pt/imoveis/arrendamento-escritorio-tvila-nova-de-gaia-mafamude-e-vilar-do-paraiso/124231389-1",
