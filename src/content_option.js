@@ -3,7 +3,7 @@ const imovel1 = require("../src/assets/images/imovel1.jpg");
 const logotext = "DG | Remax | GL";
 const meta = {
     title: "Daniela Gordinho - Remax - GL",
-    description: "Esse é meu site profissional",
+    description: "O imóvel que procura, eu te ajudo a encontrar",
 };
 
 const introdata = {
@@ -17,10 +17,8 @@ const introdata = {
     your_img_url: myImage,
 };
 
-const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
-};
+const dataabout = {};
+
 const worktimeline = [{
         jobtitle: "Designer of week",
         where: "YAdfi",
